@@ -3,7 +3,7 @@ Derived from the original [i8042 driver](https://github.com/torvalds/linux/blob/
 **Install**
 
    ```bash
-  git clone https://github.com/berzoidberg/i8042-spectre-dkms
+   git clone https://github.com/DaniilKoterov/i8042-spectre-dkms
    sudo cp -R i8042-spectre-dkms /usr/src/i8042-spectre-1.0
    sudo dkms add -m i8042-spectre -v 1.0
    sudo dkms build -m i8042-spectre -v 1.0
